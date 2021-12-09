@@ -1,0 +1,206 @@
+html {
+    
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+
+    .content {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        justify-content: space-between;
+
+        img {
+            height: 50px;
+        }
+
+        nav {
+            ul {
+                display: flex;
+
+                li {
+                    padding-right: 20px;
+                    
+                    a {
+                        color: black;
+                        background-color: orange;
+                        border: 1px solid whitesmoke;
+                        border-radius: 10px;
+                        padding: 10px;
+                        box-shadow: 0px 3px orange ;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: orangered;
+                        transition: color 0.1s ease-in 0.1s ;
+                        transition: color 0.1s ease-in 0.1s ;
+                    }
+
+                    a:active {
+                        padding-top: 5px;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url(/resources/images/img-mission-background.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    .banner-text {
+        width: 100%;
+        background-color: black;
+
+        h2 {
+            margin: 10px;
+        }
+
+        h4 {
+            margin: 10px;
+        }
+    }
+}
+
+.container1 {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+    h2 {
+        margin: 5px;
+    }
+
+    h4 {
+        margin: 25px;
+    }
+
+    .tea-first {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+
+        .tea-pic {
+            img {
+                margin: 10px;
+            }
+        }
+       
+    }
+
+    .tea-second {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        width: 70%;
+
+        .tea-pic {
+            img {
+                margin: 10px;
+            }
+        }
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.container2 {
+    background-image: url(/resources/images/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    
+
+    .locations {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        
+    }
+
+        .downtown, .eastbayside, .oakdale {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 300px;
+            min-height: 300px;
+            opacity: 1;
+            margin: 0 20px;
+            
+            h3, h4 {
+                margin: 0%;
+                
+            }
+        }
+    
+}
+
+.container3 {
+    height: 200px;
+    width: 100%;
+    
+}
+
+footer {
+    width: 100%;
+    h5 {
+        float: left;
+        margin-left: 20px;
+    }
+}

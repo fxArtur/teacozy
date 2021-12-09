@@ -1,0 +1,269 @@
+html {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .content img {
+  height: 50px;
+}
+
+header .content nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .content nav ul li {
+  padding-right: 20px;
+}
+
+header .content nav ul li a {
+  color: black;
+  background-color: orange;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 3px orange;
+          box-shadow: 0px 3px orange;
+  text-decoration: none;
+}
+
+header .content nav ul li a:hover {
+  color: orangered;
+  -webkit-transition: color 0.1s ease-in 0.1s;
+  transition: color 0.1s ease-in 0.1s;
+  transition: color 0.1s ease-in 0.1s;
+}
+
+header .content nav ul li a:active {
+  padding-top: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(/resources/images/img-mission-background.webp);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.banner .banner-text {
+  width: 100%;
+  background-color: black;
+}
+
+.banner .banner-text h2 {
+  margin: 10px;
+}
+
+.banner .banner-text h4 {
+  margin: 10px;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.container1 h2 {
+  margin: 5px;
+}
+
+.container1 h4 {
+  margin: 25px;
+}
+
+.container1 .tea-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container1 .tea-first .tea-pic img {
+  margin: 10px;
+}
+
+.container1 .tea-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+}
+
+.container1 .tea-second .tea-pic img {
+  margin: 10px;
+}
+
+.container1 img {
+  width: 300px;
+  height: 200px;
+}
+
+.container2 {
+  background-image: url(/resources/images/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container2 .locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.container2 .downtown, .container2 .eastbayside, .container2 .oakdale {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.container2 .downtown h3, .container2 .downtown h4, .container2 .eastbayside h3, .container2 .eastbayside h4, .container2 .oakdale h3, .container2 .oakdale h4 {
+  margin: 0%;
+}
+
+.container3 {
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h5 {
+  float: left;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
